@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 1500px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav li{
+    display: inline-block;
+    margin: 25px 50px;
+    
+}
+nav{
+    height: 90px; 
+    border-top: 2px solid rebeccapurple;
+    border-bottom: 2px solid rebeccapurple;
+}
+nav a{
+   font-size: 1.6em;
+   color: black;
+    
+}
+nav p{
+    font-size: 0.9em;
+}
+/* end of header */
+/* section start */
+section{
+    height: auto;
+    width: 87%;
+    margin: auto;
+    
+}
+.topSection{
+    height: 150px;
+    
+}
+.logo{
+    width: 220px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.logo h1{
+    font-size: 4em;
+    font-weight: 100;
+    letter-spacing: -3px;
+
+   
+}
+.logo p{
+    float: right;
+    font-size: 1.8em;
+    letter-spacing: -1px;
+}
+.logoRight{
+    float: right;
+    margin-right: 100px;
+    
+}
+.logoRight h3{
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.centerSection .left{
+    width: 60%;
+    height: 550px;
+    background: rebeccapurple;
+    position: relative;
+    display: inline-block;
+}
+.centerSection .left h5{
+    color: black;
+    background: lightskyblue;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-top: 30px;
+    padding: 5px 5px;
+}
+.right{
+   float: right;
+   width: 39%;
+    border-top: 1.5px solid rebeccapurple;
+
+
+}
+.centerSection .right h5{
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: 500;
+    padding: 10px 10px;
+    
+}
+.right p{
+    font-size: 1.2em;
+    padding: 8px 8px;
+}
+.items{
+    width: 150px;
+    height: 170px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 21px 9px;
+    background: rebeccapurple;
+}
+.bottomSection{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+.bottomSection .left{
+    width: 27%;
+    display: inline-block;
+    margin-top: 50px;
+    border-top: 2px solid rebeccapurple;
+}
+.bottomSection .left h5{
+margin-top: 10px;
+font-size: 1.3em;
+}
+.bottomSection .left p{
+    margin: 10px 0px;
+}
+.bottomSection .left li{
+    margin: 10px 16px;
+}
+.bottomSection .left a{
+    text-decoration: underline;
+}
+.bottomSection .center{
+    width: 35%;
+    height: 210px;
+    display: inline-block;
+margin-top: 50px;
+border: 3px solid gray;
+text-align: center;
+padding: 80px 30px;
+
+}
+
+.bottomSection .rightt{
+    width: 24%;
+    height: 180px;
+    display: inline-block;
+    margin-top: 50px;
+    border: 2px solid rebeccapurple;
+    background: lightgrey;
+    text-align: center;
+    padding: 45px 25px;
+    top: 50px;
+    
+}
+.bottomSection .rightt h5{
+font-size: 1.3em;
+
+}
+footer{
+    border-top: 1.2px solid rebeccapurple;
+    margin-top: 90px;
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+}
+.footerLeft{
+    width: 31%;
+    padding: 50px 50px;
+
+
+}
+.footerCenter{
+    width: 31%;
+    padding: 50px 50px;
+
+    
+}
+.footerRight{
+    width: 31%;
+    padding: 50px 50px;
+    
+}
+.footerRight ul{
+    list-style-type: none;
+}
+.footerRight li{
+    margin: 10px 10px ;
+    text-align: center;
+}
+.footerRight a{
+    text-decoration: underline;
+
+}
+
