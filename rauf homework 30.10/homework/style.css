@@ -1,0 +1,129 @@
+nav{
+    margin-left: 70px;
+}
+
+.nav{
+    display: inline-block;
+    margin-right: 4%;   
+}
+
+.nav a{
+    text-decoration: none;
+    color: skyblue;    
+}
+
+hr{
+    border: 2px solid yellow;
+}
+
+.textLeft{
+    display: inline-block;
+}
+
+.textLeft h1{
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+.textLeft p{
+    text-align: right;
+    margin-top: -30px;
+}
+
+.textRight{
+    display: inline-block;
+    margin-left: 61%;
+}
+
+.bLeft{
+    display: inline-block;
+    width: 58%;
+    height: 622px;
+    background-color: royalblue;
+}
+
+.bLeft p{
+    background-color: black;
+    color: yellowgreen;
+    display: inline-block;
+    font-size: 2em;
+    padding:5px;
+}
+
+.bRight{
+    display: inline-block;
+    float: right;
+    width: 40%;
+    margin-left: 20px;
+    
+}
+
+.bRight p{
+    margin-bottom: 35px;
+}
+
+.bRight .box1{
+    display: inline-block;
+    width: 32%;
+    background-color: blue;
+    height: 120px;
+}
+
+.sFooter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sFooter .box1{
+    width: 32%;
+    border-top: 2px solid yellow;
+
+}
+
+.box1 li{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box2{ 
+    width: 32%;
+    text-align: center;
+    border: 2px solid grey;
+    height: 200px;
+    margin-left: 15px;
+    line-height: 13;
+}
+
+.box3{
+    width: 32%;
+    background-color: grey;
+    height: 200px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer .box{
+    width: 30%;
+    border-top: 1px solid yellow;
+}
+
+.box .link{
+    display: flex;
+}
+
+.link ul{
+    width: 40%;
+    text-decoration: underline;
+    cursor: pointer;
+    list-style: none;
+}
+
+
+

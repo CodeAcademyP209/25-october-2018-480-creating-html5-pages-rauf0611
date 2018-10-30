@@ -1,0 +1,173 @@
+.pullLeft{
+	float:left;
+}
+.pullRight{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+/* end of common styles*/
+body{
+	margin:0px;
+	background-color:green;
+	background-image: url(../images/body-bg.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat:repeat;
+}
+#wrapper{
+	width:1200px;
+
+	margin:0px auto;
+	margin-top:100px;
+}
+/* end of wrapper section */
+#header{
+	width:100%;
+/*	height:100px;*/
+	background-color:rgba(255,255,255,1);
+	padding:35px 160px;
+	box-sizing: border-box;
+/*	margin-top:50px;
+	margin-left:100px;*/
+}
+
+.logo{
+
+
+}
+.nav-icon{
+
+}
+
+/*end of header section*/
+#slider{
+	/*border-width:1px;
+	border-color:red;
+	border-style:solid;*/
+
+/*	border:1px solid red;*/
+}
+.sliderLeft{
+	width:900px;
+	height:360px;	
+	background:url(../images/s.jpg) no-repeat;
+	background-size:cover;
+
+}
+.sliderLeftInner{
+	padding:90px;
+	box-sizing: border-box;
+	width:100%;
+	height:100%;
+	background-image: linear-gradient(to right,rgba(160, 55, 236,0.9), rgba(96, 167, 211,0.7));
+}
+.sliderLeftInner h1,.sliderLeftInner p,.sliderLeftInner button{
+	color:white;
+}
+.sliderLeftInner h1{
+	text-transform: uppercase;
+}
+.sliderLeftInner button{
+	background:none;
+	padding:10px 20px;
+	border:1px solid white;
+	border-radius:20px;
+}
+.sliderRight{
+	width:300px;
+	height:360px;
+
+}
+.sliderRight div img{
+	width:100%;
+	margin:0;
+	padding:0;
+	float:right;
+}
+.services{
+	padding: 60px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	box-sizing: border-box;
+
+}
+.services .service{
+	width: 33%;
+	padding: 15px;
+	box-sizing: border-box;
+	
+}
+.serviceIcon{
+	border: 1px solid gainsboro;
+    width: 65px;
+    height: 60px;
+    margin-left: 50%;
+	transform: translateX(-50%);
+	border-radius: 5px;
+}
+.services  h1{
+	margin-left: 35%;
+
+}
+.serviceIcon i{
+	padding: 20px;
+	font-size: 1.5em;
+	color: rgba(160, 55, 236,0.9)
+}
+
+.services :hover  .serviceIcon{
+	background-image: linear-gradient(to right,rgba(160, 55, 236,0.9), rgba(96, 167, 211,0.7));
+}
+.services :hover  .serviceIcon i{
+	color: white;
+}
+.story .under{
+	display: flex;
+	height: 500px;
+
+}
+.under .left{
+	width: 50%;
+	background-image: linear-gradient(to right,rgba(160, 55, 236,0.9), rgba(96, 167, 211,0.7));
+}
+.under .left .text{
+	padding: 40% 4%;
+	color: white;
+
+}
+.under .right{
+	width: 50%;
+	box-sizing: border-box;
+	background-image: url(../images/story-bg.jpg) ;
+	background-size: cover;
+}
+.on{
+	height: 300px;
+	width: 50%;
+	position: relative;
+	margin:0px auto;
+	background-color: white;
+	bottom: 420px;
+}
+.on .all{
+	padding:70px;
+}
+.all button{
+	background:none;
+	padding:10px 20px;
+	border:1px solid grey;
+	border-radius:20px;
+}
+.work{
+    text-align: center;
+    background-color: white;
+    margin-top: -320px;
+    padding: 70px 0px;
+}
+}
+/*end of main section*/
+
+/*end of footer section*/
